@@ -18,3 +18,7 @@ node_modules: package.json
 	@npm install
 
 release: $(STANDALONE).js
+
+bower_register:
+	@bower register $(STANDALONE).js `node -e "console.log(require('./package.json').repository.url)"`
+
