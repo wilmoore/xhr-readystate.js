@@ -1,0 +1,16 @@
+{
+  "name": "xhr-readystate.js",
+  "version": "0.1.0",
+  "description": "XMLHttpRequest ready state map for Node.js and the browser.",
+  "repo": "wilmoore/xhr-readystate.js",
+  "keywords": [
+    "xhr",
+    "readystate",
+    "xmlhttprequest"
+  ],
+  "dependencies": {},
+  "development": {},
+  "scripts": [
+    "index.js"
+  ]
+}

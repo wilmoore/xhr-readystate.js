@@ -1,0 +1,28 @@
+{
+  "name": "xhr-readystate.js",
+  "version": "0.0.0",
+  "description": "XMLHttpRequest ready state map for Node.js and the browser.",
+  "author": "Wil Moore III <wil.moore@wilmoore.com>",
+  "keywords": [
+    "xhr",
+    "readystate",
+    "xmlhttprequest"
+  ],
+  "main": "./index",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilmoore/xhr-readystate.js"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "browserify": "*",
+    "chai": "*"
+  },
+  "browser": "./index.js",
+  "volo": {
+    "url": "https://raw.github.com/wilmoore/xhr-readystate.js/v{version}/xhr-readystate.js"
+  }
+}
