@@ -1,6 +1,6 @@
 {
   "name": "xhr-readystate.js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "XMLHttpRequest ready state map for Node.js and the browser.",
   "author": "Wil Moore III <wil.moore@wilmoore.com>",
   "keywords": [
