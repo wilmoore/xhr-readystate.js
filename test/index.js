@@ -11,4 +11,12 @@ describe('xhr-readystate', function(){
     assert(Object.keys(states).length == 5);
   });
 
+  Object.keys(states).forEach(function (state) {
+
+    it(state + ' value is numeric', function() {
+      assert(typeof states[state] == 'number');
+    });
+
+  });
+
 });
